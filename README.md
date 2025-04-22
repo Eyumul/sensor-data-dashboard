@@ -1,75 +1,45 @@
-# Nuxt Minimal Starter
+# Sensor Data Dashboard
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A dashboard for visualizing sensor data.
 
-## Setup
+## Getting Started
 
-Make sure to install dependencies:
+Follow these steps to set up the project locally on your machine.
 
-```bash
-# npm
-npm install
+### Prerequisites
 
-# pnpm
-pnpm install
+- [Git](https://git-scm.com/)
+- [Bun](https://bun.sh) (JavaScript runtime)
+- [VS Code](https://code.visualstudio.com/) (or any other code editor)
 
-# yarn
-yarn install
+### Installation
 
-# bun
-bun install
-```
+1. Open terminal
+2. Clone the project by running this code:
+   ```sh
+   git clone git@github.com:Eyumul/sensor-data-dashboard.git
+   ```
+3. Change the directory by running this code:
+    ```sh
+    cd sensor-data-dashboard
+    ```
+4. Install required packages for the project by running this code:
+    ```sh
+    bun install
+    ```
+5. Open the project in VS code by running this code:
+    ```sh
+    code .
+    ```
 
-## Development Server
+### Running the Development Server
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+1. Start the development server:
+    ```sh
+    bun dev
+    ```
+2. Open your browser and access the application at:
+    ```sh
+    http://localhost:3000/
+    ```
+    or click this [Projcet] (http://localhost:3000/)
