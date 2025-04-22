@@ -42,4 +42,4 @@ Follow these steps to set up the project locally on your machine.
     ```sh
     http://localhost:3000/
     ```
-    or click this [Projcet] (http://localhost:3000/)
+    or click this [Project](http://localhost:3000/)
