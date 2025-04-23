@@ -15,7 +15,11 @@
                     ></div>
                 </template>
             </div>
-            <div class="bg-white rounded-[14px] shadow-md w-full h-3/4"></div>
+            <div class="flex justify-center items-center bg-white rounded-[14px] shadow-md w-full pr-2 h-3/4">
+                <ClientOnly>
+                    <apexchart type="area" class="w-full " height="450" :options="chartOptions" :series="series"></apexchart>
+                </ClientOnly>
+            </div>
         </div>
         <div class="flex flex-col gap-[21px] bg-white p-[24px] rounded-[14px] shadow-md w-[25%] h-full">
             <p class="text-xl mb-8">Details</p>
@@ -38,5 +42,6 @@
     </div>
 </template>
 <script setup>
-import { sensorsData } from '~/composables/constants/sensorDummyData.js'
+import { sensorsData } from '~/composables/constants/sensorDummyData'
+import { series, chartOptions } from '~/composables/constants/chartConstants'
 </script>
