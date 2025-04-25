@@ -15,14 +15,15 @@
                     ></div>
                 </template>
             </div>
-            <div class="flex justify-center items-center bg-white rounded-[14px] shadow-md w-full pr-2 h-3/4">
+            <div class="bg-white group rounded-[14px] shadow-md w-full p-[24px] h-3/4">
                 <ClientOnly>
+                    <h2 class="text-[#888888] group-hover:text-violet-1 text-xl font-bold mb-2">Sensor Power Consumption</h2>
                     <apexchart type="area" class="w-full " height="450" :options="chartOptions" :series="series"></apexchart>
                 </ClientOnly>
             </div>
         </div>
-        <div class="flex flex-col gap-[21px] bg-white p-[24px] rounded-[14px] shadow-md w-[25%] h-full">
-            <p class="text-xl mb-8">Details</p>
+        <div class="flex flex-col gap-[21px] bg-white group p-[24px] rounded-[14px] shadow-md w-[25%] h-full">
+            <h2 class="text-[#888888] group-hover:text-violet-1 text-xl font-bold mb-8">Details</h2>
             <template v-for="(sensor, index) in sensorsData" :key="sensor.number">
                 <SensorDetailCard
                     :number="sensor.number"
