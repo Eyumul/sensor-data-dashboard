@@ -25,6 +25,9 @@ export  const chartOptions = {
     chart: {
       height: 350,
       type: "area",
+      toolbar: {
+        show: false,
+      },
     },
     dataLabels: {
       enabled: false,
